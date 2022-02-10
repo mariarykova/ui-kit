@@ -1,8 +1,5 @@
 {
   "devDependencies": {
     "vanillajs-datepicker": "^1.2.0"
-  },
-  "dependencies": {
-    "litepicker": "^2.0.12"
   }
 }
