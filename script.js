@@ -1,5 +1,5 @@
 import Datepicker from "../node_modules/vanillajs-datepicker/js/Datepicker.js";
-import Litepicker from "./node_modules/litepicker/dist/js/main";
+import Litepicker from "./node_modules/litepicker/dist/litepicker";
 
 window.disableLitepickerStyles = true;
 new Litepicker({
