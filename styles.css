@@ -1,0 +1,139 @@
+.colors-styles {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.circle {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  border-color: transparent;
+}
+
+.circle-black {
+  background-color: #2c2c2c;
+}
+
+.circle-grey {
+  background: #2c2c2c;
+  opacity: 0.5;
+}
+
+.circle-blue {
+  background-color: #18a0fb;
+}
+
+.circle-red {
+  background-color: #ff3e1d;
+}
+
+.circle-green {
+  background-color: #00d200;
+}
+
+.circle-yellow {
+  background-color: #ffd422;
+}
+
+.circle-border-grey {
+  border: 1px solid #e0e0e0;
+}
+
+.circle-border-red {
+  border: 1px solid #ff3e1d;
+}
+
+.circle-border-blue {
+  border: 1px solid #18a0fb;
+}
+
+.circle-shadow-one {
+  border: 1px solid rgba(224, 224, 224, 0.15);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.circle-shadow-two {
+  border: 1px solid rgba(224, 224, 224, 0.15);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.circle-shadow-three {
+  border: 1px solid rgba(224, 224, 224, 0.15);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+}
+
+.circle-shadow-four {
+  border: 1px solid rgba(224, 224, 224, 0.15);
+  box-shadow: 0px 10px 23px rgba(0, 0, 0, 0.12);
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn-dwnld {
+  width: 144px;
+  height: 46px;
+  background: #18a0fb;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo span:nth-child(1) {
+  padding-right: 5px;
+}
+
+.grey {
+  background: rgba(224, 224, 224, 0.3);
+  color: #878787;
+}
+
+.black {
+  color: #2c2c2c;
+  border: 1px solid #e0e0e0;
+  background-color: transparent;
+}
+
+.blue {
+  color: #18a0fb;
+  border: 1px solid #18a0fb;
+  background-color: transparent;
+}
+
+.datepicker-picker {
+  background: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+.datepicker-header .datepicker-controls .button {
+  background: rgb(24, 160, 251, 0.1);
+  /* opacity: 0.1; */
+}
