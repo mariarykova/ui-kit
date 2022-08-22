@@ -3,6 +3,7 @@
     "vanillajs-datepicker": "^1.2.0"
   },
   "dependencies": {
+    "choices.js": "^10.1.0",
     "litepicker": "^2.0.12"
   }
 }
